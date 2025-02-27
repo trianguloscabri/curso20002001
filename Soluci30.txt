@@ -1,0 +1,32 @@
+<body>
+<CENTER><TABLE BORDER COLS=1 WIDTH="80%" >
+<TR>
+<TD>3. Demostrar que en un triángulo, la recta perpendicular trazada
+desde un vértice al lado correspondiente del triángulo órtico
+pasa por el circuncentro.</TD>
+</TR>
+</TABLE></CENTER>
+               
+[ANEXO A &#8211; 2] [Programa de un taller sobre el uso del Cabri II]
+<BR>               
+Programa del taller sobre resolución de problemas geométricos
+usando el Cabri  Géomètre II. (pág 169)
+<BR>               
+Tallerista: Profesora Martha Iglesias.
+<BR> 
+<BR> 
+<BR> 
+<BR> 
+<br>
+<p>Un resultado elemental relacionado con el triángulo órtico establece que las alturas del triángulo ABC son bisectrices interiores del triángulo órtico A'B'C', y que además se cumplen ciertas igualdades angulares: <ABB' = <C'A'A = <AA'B' = <C'CA, etc.</br>
+<br>Es fácil comprobar que la inclinación respecto a BC de la perpendicular trazada desde B al lado C'A' del triángulo órtico es igual al ángulo <ABB' (en el dibujo "a"). Lo mismo sucede con la perpendicular a A'B' trazada desde C. De ahí resulta que <BPC = 180º - 2a =2b + 2c (ya que 2a + 2b +2c = 180º). </br>
+<br>De la misma manera desde P', punto de corte de las perpendiculares trazadas desde C y desde A, se ve AC con un ángulo igual a 2a + 2b; desde el punto P'' de corte de las perpendiculares tercera y primera se ve AB con un ángulo igual a 2a + 2c; como además 4a + 4b +4c = 360º, resulta que los tres puntos coinciden con el circuncentro de ABC, único punto desde el que se ven los lados AB, BC y CA con las medidas angulares indicadas (ángulos centrales dobles de los ángulos <A, <B y <C).</br>
+<br>Solución de Carlos Fleitas "IES Marqués de Santilana", Colmenar Viejo (Madrid)</br></p>
+<br></br>
+<applet code="CabriJava.class" width="460" height="354" archive="CabriJava.jar">
+      <param name="lang" value="en">
+      <param name="bgcolor" value="#F0F0CC">
+      <param name="file" value="ortico.fig">
+</applet>
+</body>
+</html> 

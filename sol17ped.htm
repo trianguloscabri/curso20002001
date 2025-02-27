@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Documento sin t&iacute;tulo</title>
+<meta http-equiv="" content="text/html; charset=iso-8859-1">
+<meta http-equiv="" content="text/html; charset=iso-8859-1"></head>
+
+<body bgcolor="#F4FFEA">
+<p>17 Hermann Amandus Schwarz (1.843-1.921) fue un notable matem&aacute;tico de 
+  la Universidad de Berl&iacute;n... una de sus memorias trata del siguiente problema: 
+  dado un tri&aacute;ngulo acut&aacute;ngulo, inscribirle otro de per&iacute;metro 
+  m&iacute;nimo... Le llamaremos tri&aacute;ngulo &oacute;rtico..&#8221; </p>
+<p>Soluci&oacute;n de Jos&eacute; Mar&iacute;a Pedret. Ingeniero naval. Esplugas 
+  de Llobregat. Barcelona. (2 de Enero de 2004)</p>
+<p>&nbsp;</p>
+<p>Usaremos un m&eacute;todo que puede generalizarse para pol&iacute;gonos de 
+  n lados.</p>
+<p>Recordemos primero el siguiente problema:<br>
+</p>
+<p>Sobre una recta dada, hallar un punto X tal que las rectas que le unen a dos 
+  puntos A y B, situados a un mismo lado de la recta dada, formen &aacute;ngulos 
+  iguales con dicha recta.</p>
+<p>Recordemos la soluci&oacute;n:<br>
+</p>
+<p>Se halla A1 sim&eacute;trico de A respecto la recta dada. La recta BA1 nos 
+  da X, intersecci&oacute;n de BA1 con la recta dada.</p>
+<p><img src="sol17ped1.JPG" width="180" height="117"></p>
+<p>Como AB1 es una recta AX+XB es el trayecto m&iacute;nimo de A a B pasando por 
+  la recta dada.</p>
+<p>Usando este pr&iacute;ncipio podemos resolver el problema planteado.</p>
+<p>Si XYZ es el tri&aacute;ngulo soluci&oacute;n ser&aacute;:<br>
+  &lt; ZXA = &lt; YXC, <br>
+  &lt; XYC = &lt; ZYB, <br>
+  &lt; YZB = &lt; XZA</p>
+<p>Si supieramos la direcci&oacute;n de ZX el problema estar&iacute;a casi resuelto; 
+  pero XY est&aacute; sobre la sim&eacute;trica de ZX respecto al lado AC; YZ 
+  sobre la sim&eacute;trica de XY respecto CB y ZX sobre la sim&eacute;trica de 
+  YZ respecto AB.</p>
+<p>En lugar de hacer las simetr&iacute;as sobre el mismo tri&aacute;ngulo, buscamos 
+  los tri&aacute;ngulos sim&eacute;tricos sucesivamnete respecto los diferentes 
+  lados hasta llegar a repetir ABC. Despu&eacute;s de 6 simetr&iacute;as hallar&iacute;amos 
+  A6B6C6 Que ser&iacute;a la imagen de ABC por una traslaci&oacute;n.<br>
+  La recta AA6 (= AA5) nos dar&iacute;a la direcci&oacute;n del camino m&iacute;nimo.</p>
+<p>Ahora ya tenemos la direcci&oacute;n de ZX pero no conocemos Z.</p>
+<p>Supongamos que P es soluci&oacute;n. Paralela a AA5 y obtenemos P1. Uniendo 
+  P1 con el sim&eacute;trico Ps de P respecto AC obtenemos P2 y sucesivamente 
+  obtenemos P3 y P'.</p>
+<p><img src="sol17ped2.JPG" width="711" height="505"> 
+</p>
+<p>Vemos que P'P2P3 es un tri&aacute;ngulo m&iacute;nimo pero P' no est&aacute; 
+  en AC.<br>
+  Repetimos el mismo proceso (por medio de paralelas) con otro punto Q y hallamos 
+  Q'.<br>
+  Q'Q2Q3 es otro tri&aacute;ngulo m&iacute;nimo; pero Q' no esta en AC.</p>
+<p>Observamos ahora que P'P2P3 y Q'Q2Q3 son homot&eacute;ticos; entonces X estar&aacute; 
+  en la intersecci&oacute;n de P'Q' con AC. Y con las paralelas correspondientes 
+  obtenemos XYZ.</p>
+<p>P'Q' es la alturade B sobre AC; ZX y XY sim&eacute;tricos =&gt; P'Q' perpendicular 
+  a AC que pasa por B (el centro de homotecia)</p>
+<p>La generalizaci&oacute;n al pol&iacute;gono de lado n nos exigir&iacute;a 2n-1 
+  simetr&iacute;as; pero el proceso es id&eacute;ntico.</p>
+  
+<applet code="CabriJava.class"  width="897" height="475" archive="CabriJava.jar">
+  <param name="lang" value="en">
+  <param name="bgcolor" value="#FFFFFF">
+  <param name="file" value="sol17ped.fig">
+</applet>
+<p>&nbsp;</p>
+<p><br>
+</p>
+<p>&nbsp;</p>
+</body>
+</html>

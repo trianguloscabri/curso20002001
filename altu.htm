@@ -1,0 +1,173 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<HTML>
+<HEAD>
+	<TITLE>Cabri Java Applet</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FEF7DE">
+<H2 ALIGN=center><font size="5"><i>Construcción de un triángulo conocidas sus
+alturas</i></font></H2>
+<p ALIGN=center> </p>
+<p ALIGN=left><font size="3">Sean a, b, c la longitud de las alturas. En el applet
+siguiente pueden modificarse desde los puntos A, B, C.</font></p>
+<p ALIGN=left><font size="3">Aunque el procedimiento de construcción del triángulo pueda
+parecer algo </font><font size="3">artificial</font><font size="3">, funciona, y
+es de fácil justificación.</font></p>
+<p ALIGN=center><APPLET CODE="CabriJava.class" WIDTH="700" HEIGHT="950" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="altur1.fig">
+	<PARAM NAME=lang VALUE="en">
+</APPLET></p>
+<p ALIGN=center><b>Figura:  </b><TT>alturastriangulo1.fig </TT></p>
+<p ALIGN=left><font size="3">Se toma un punto cualquiera P y una circunferencia
+auxiliar.  Sobre ella se hace la construcción típica de potencia de un
+punto respecto a la circunferencia, siendo PA = a;....obteniendo los puntos A,
+B, C. y los  puntos A', B', C'.</font></p>
+<table border="0" width="100%">
+  <tr>
+    <td width="50%">
+      <p align="center"><img border="0" src="altura1.gif" width="245" height="84"></td>
+    <td width="50%">
+      <p align="center"><img border="0" src="altura2.gif" width="253" height="163"></td>
+  </tr>
+</table>
+<p ALIGN=left><font size="2"><b>Las circunferencias de radios, a,b,c con centro
+en P, han de cortar  a la circunferencia auxiliar. Si no cortan será preciso mover P o bien el tamaño de
+la circunferencia auxiliar.</b></font></p>
+<p ALIGN=left>Construimos un triángulo con los segmentos PA'=a', PB'=b', PC'=c'
+(construcción elemental). Se verifica, que este triángulo es semejante al
+triangulo pedido.  </p>
+<p ALIGN=center><img border="0" src="altura3.gif" width="588" height="123"></p>
+<p ALIGN=left>    Sean a'', b'', c'', las alturas del triangulo de lados, a', b',
+c'.</p>
+<p ALIGN=left>Por un lado tenemos, por potencia de un punto sobre una
+circunferencia:</p>
+<p ALIGN=center>    <b><font size="4">a . a' = b . b' = c . c'
+=Constante</font></b></p>
+<p ALIGN=left><span style="font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:ES;mso-fareast-language:
+ES;mso-bidi-language:AR-SA"><span style="mso-text-raise:-3.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:96.75pt;
+ height:14.25pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+</span><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1064359731">
+ </o:OLEObject>
+</xml><![endif]-->
+</span></p>
+<p ALIGN=left>y sobre el triangulo de lados a', b', c' y alturas a'', b'',
+c'': </p>
+<p ALIGN=center>      <span style="mso-text-raise:-3.0pt"><span style="font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:ES;mso-fareast-language:
+ES;mso-bidi-language:AR-SA"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:99.75pt;
+ height:14.25pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+</span></span><b><span style="mso-text-raise: -3.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA"><font size="4">a'
+. a'' = b' . b'' = c' . c'' = 2(área del triángulo)</font></span></b><span style="font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:ES;mso-fareast-language:
+ES;mso-bidi-language:AR-SA"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1064359851">
+ </o:OLEObject>
+</xml><![endif]-->
+</span></p>
+<p ALIGN=left><span style="font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">dividiendo
+miembro a miembro tenemos; <span style="font-size:12.0pt;font-family:"Times New Roman";
+mso-fareast-font-family:"Times New Roman";mso-ansi-language:ES;mso-fareast-language:
+ES;mso-bidi-language:AR-SA"><span style="mso-text-raise:-12.0pt"><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:96.75pt;
+ height:30.75pt' o:ole="">
+ <v:imagedata src="file:///C:/WINDOWS/TEMP/msoclip1/01/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+</span></span></span></p>
+<p ALIGN=center><b><span style="mso-text-raise:-12.0pt"> </span><span style="mso-text-raise: -12.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA"><font size="4">a/a''
+= b/b'' = c/c''= cte.</font></span></b></p>
+<p ALIGN=left> <span style="font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA"><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1064360054">
+ </o:OLEObject>
+</xml><![endif]-->
+ como puede verse en el applet CabriJava.</span></p>
+<p ALIGN=left><span style="font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">Esto
+es, las alturas a'',b'',c''de este triángulo  son proporcionales a las alturas
+dadas a,b,c . Si
+hacemos un triángulo semejante de razón la cte calculada, el problema está
+resuelto.</span></p>
+<p ALIGN=left><span style="font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">Esta
+construcción esta tomada de: </span></p>
+<p ALIGN=left>   <b><span style="font-size: 12.0pt; font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">
+</span><span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA"><font size="2">-Rendón
+Gómez, A. Geometría paso a paso. Pág.  172.. Ed.  Tébar</font></span></b></p>
+<p ALIGN=left><b><font size="2">   -<span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">
+Sánchez Vázquez, G. Métodos Gráficos de resolución de  problemas
+geométricos. Pág. 93.</span><span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA"> 
+</span><span style="font-family: Times New Roman; mso-fareast-font-family: Times New Roman; mso-ansi-language: ES; mso-fareast-language: ES; mso-bidi-language: AR-SA">Sociedad
+Andaluza de Educación Matemática "THALES"</span></font></b></p>
+<P ALIGN=center>
+<P ALIGN=right><font size="-1"><b>Solución dada por <a href="mailto:jarran2@roble.pntic.mec.es"> Jose
+M Arranz</a></b></font><P ALIGN=right><font size="-1"><b>Centro de Profesores y
+Recursos de Ponferrada (León).</b></font>
+</BODY>
+</HTML>

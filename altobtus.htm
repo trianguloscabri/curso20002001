@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p>Problema 4. Caso obtus&aacute;ngulo</p>
+<table width="75%" border="1">
+  <tr>
+    <td>altura. La altura de un triángulo (correspondiente a un lado) es la recta 
+      perpendicular que pasa por el vértice opuesto. Las tres alturas de un triángulo 
+      se cortan en el ortocentro</td>
+  </tr>
+</table>
+<p>Tenemos el tri&aacute;ngulo ABC obtus&aacute;ngulo en C.</p>
+<p><img src="altob1.gif" width="444" height="272"></p>
+<p>Tracemos las tres alturas, AB', CC`y BA'.</p>
+<p>Apliquemos el teorema de Ceva (ver problema 37), que es:</p>
+<table width="75%" border="1">
+  <tr>
+    <td>Teorema de Ceva. Sean a, b c, los vértices de un triángulo y tres puntos 
+      a' de bc, b' de ca, y c' de ab sobre los lados de este triángulo. Entonces 
+      las tres rectas aa', bb', y cc' son concurrentes si y sólo si se tiene: 
+      a'b / a'c b'c / b'a c'a/ c'b = - 1 </td>
+  </tr>
+</table>
+<p>Tenemos que los tri&aacute;ngulos CC'A y BB'A, por una parte,</p>
+<p> y los CC'B y AA'B por otra , son semejantes, por tener &aacute;ngulos iguales. 
+</p>
+<p align="center"><APPLET CODE="CabriJava.class" WIDTH="470" HEIGHT="457" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="altobt.fig">
+	<PARAM NAME=lang VALUE="es">
+	<PARAM NAME=border VALUE="3">
+	<PARAM NAME=bgcolor VALUE="#FFFFFF">
+	<PARAM NAME=autocontrol VALUE="true">
+	<PARAM NAME=xposition VALUE="130">
+	<PARAM NAME=yposition VALUE="60">
+</APPLET></p>
+<p>Luego, es: CC'/B'B = AC'/AB', y CC'/A'A = BC'/BA'</p>
+<p>es, dividiendo la primera igualdad por la segunda, <br>
+</p>
+<p>A'A/B'B = AC'/AB' BA'/BC' [1].</p>
+<p>Tambi&eacute;n los tri&aacute;ngulos A'AC y B'BC son semejantes, </p>
+<p>por ser rect&aacute;ngulos en A' y B' y com&uacute;n el &aacute;ngulo en C. 
+</p>
+<p>Luego, es: B'B/A'A = CB'/ CA', por lo que es, teneindo en cuenta [1], que:</p>
+<p>CA'/CB' = AC'/AB' BA'/BC', por lo que: </p>
+<p>(A'B B'C C'A )/(A'C B'A C'B) = 1, y si tenemos en cuenta la orientaci&oacute;n, 
+  es -1., luego,</p>
+<p> c.q.d. las tres alturas de un tri&aacute;ngulo obtus&aacute;ngulo se cortan 
+  en un punto, </p>
+<p>llamado ortocentro. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

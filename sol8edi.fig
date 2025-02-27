@@ -1,0 +1,132 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 6.87916666666667 y: -4.78895833333333 Window size x: 30.0302083333333 y: 19.0764583333333
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 126, -104, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 3.33375 2.75166666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: -92, 106, NS: 12, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.40770833333333 -2.88395833333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 195, 112, NS: 11, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 5.21229166666667 -2.936875
+p: 0, System, S: 0 C: 3 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+"B'", NP: 172, -4, NS: 16, 18
+7: Mid, 2, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6
+
+9: Perp, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 6
+
+"H1", NP: 123, 114, NS: 20, 18
+10: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 9
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"H3", NP: 54, -36, NS: 20, 18
+11: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 8
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"H", NP: 125, 39, NS: 12, 18
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 9
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"Ha", NP: 139, -50, NS: 20, 18
+13: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 12 3
+p: 0, System, S: 0 C: 3 Fa: 0
+
+14: Perp, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 6
+
+"Hb", NP: 0, 79, NS: 20, 18
+15: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 12 4
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"H2", NP: 168, 25, NS: 20, 18
+16: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 14
+p: 0, System, S: 0 C: 3 Fa: 0
+
+17: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 7
+
+18: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 15
+
+"A'", NP: 53, 128, NS: 14, 18
+19: Mid, 1, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, System, S: 0 C: 3 Fa: 0
+
+20: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 15
+
+21: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 7
+
+"Hc", NP: 159, 74, NS: 19, 18
+22: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 12 5
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C'", NP: 21, 1, NS: 15, 18
+23: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"N", NP: 89, 40, NS: 12, 18
+24: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 22 23
+p: 0, System, S: 0 C: 3 Fa: 0
+
+25: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 24 10
+
